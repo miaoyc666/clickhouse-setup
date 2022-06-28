@@ -13,5 +13,7 @@ mkdir -p /data/clickhouse
 mkdir -p /var/log/clickhouse
 ```
 
-##### 2.准备配置文件
-`cp config.xml metrika.xml users.xml /etc/clickhouse-server`
+##### 2.编辑配置文件
+```bash
+cp config.xml metrika.xml users.xml /etc/clickhouse-server  # 如已编辑好，直接拷贝到默认配置目录
+```
