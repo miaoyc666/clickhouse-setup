@@ -17,3 +17,6 @@ mkdir -p /var/log/clickhouse
 ```bash
 cp config.xml metrika.xml users.xml /etc/clickhouse-server  # 如已编辑好，直接拷贝到默认配置目录
 ```
+
+### 常用语句与运维经验
+[Clickhouse doc](https://github.com/miaoyc666/rd-manual/tree/main/Clickhouse)
